@@ -6,7 +6,21 @@
 <meta charset="utf-8">
 <script src="cordova.js"></script>
 <script type="text/javascript">
-	window.location.href = "https://otovill.com/mobile/home?mobile=1";
+	//window.location.href = "https://otovill.com/mobile/home?mobile=1";
+
+	function form_submit() {
+
+		document.id.action="https://otovill.com/mobile/home?mobile=1";
+
+		document.id.submit();
+
+	}
+
+	alert("a");
+	form_submit();
+
+
+
 </script>
 <body  onload="onLoad()">
 </body>
