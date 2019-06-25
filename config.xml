@@ -16,12 +16,16 @@
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
 	
-	<allow-navigation href="*" />
 	<icon src="icon.png" />
-	<content src="index.html" />
-	<access origin="*" />
-
-
 	
-	<allow-intent href="*" />
+	<access origin="*" />
+	<allow-navigation href="*" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-intent href="sms:*" />
+	<allow-intent href="tel:*" />
+
+
+	<content src="https://naver.com" />
+
 </widget>
