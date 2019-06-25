@@ -3,12 +3,15 @@
 <head>
 <title></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' example.com">
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
 <meta charset="utf-8">
 <script src="cordova.js"></script>
 <script type="text/javascript">
-	//window.location.href = "https://otovill.com/mobile/home?mobile=1";
+	window.location.href = "https://otovill.com/mobile/home?mobile=1";
 
-	function form_submit() {
+	/*function form_submit() {
 		alert("b");
 		document.id.action="https://otovill.com/mobile/home?mobile=1";
 		alert("c");
@@ -18,11 +21,11 @@
 	}
 
 
-	form_submit();
+	form_submit();*/
 
 
 
 </script>
-<body  >
+<body  onload="onLoad()">
 </body>
 </html>
