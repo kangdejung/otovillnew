@@ -5,11 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
 <meta charset="utf-8">
 <body>
-wwwwwaaa111
+wwwwwaaa1112
+<br>
+<form method="post" name="frm" action="https://otovill.com/mobile/test">
+	<input type="hidden" name="token" value="wwwwwaaa1112">
+</form>
 <script src="cordova.js"></script>
 <script type="text/javascript">
 	document.write(window.location);
 	//window.location.replace("https://otovill.com/mobile/test");
+	setTimeout(function() { document.frm.submit() }, 5000);
 </script>
 </body>
 </html>
