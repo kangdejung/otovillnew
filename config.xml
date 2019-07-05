@@ -20,7 +20,7 @@
 	
 	<allow-navigation href="*" />
 	<icon src="icon.png" />
-	<content src="https://otovill.dungzi.com/mobile" />
+	<content src="index.html" />
 	<access origin="*" />
 	<allow-intent href="http://*/*" />
 	<allow-intent href="https://*/*" />
