@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dungzi.otovillnew" version="3" android-versionCode="3" xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.dungzi.otovillnew" version="3" android-versionCode="3" xmlns="https://www.w3.org/ns/widgets"  xmlns:gap="https://phonegap.com/ns/1.0">
     <name>오투오빌</name>
     <description>	
         오투오빌
     </description>
-    <author email="webplug@gmail.com" href="http://www.dungzi.com/">
+    <author email="webplug@gmail.com" href="https://www.naver.com/">
         Dungzi Team
     </author>
 	<preference name="AutoHideSplashScreen" value="false" />
@@ -20,7 +20,7 @@
 	
 	<allow-navigation href="*" />
 	<icon src="icon.png" />
-	<content src="index.html" />
+	<content src="https://otovill.dungzi.com/mobile" />
 	<access origin="*" />
 	<allow-intent href="http://*/*" />
 	<allow-intent href="https://*/*" />
